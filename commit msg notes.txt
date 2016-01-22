@@ -1,0 +1,15 @@
+1. cd to your local Git repo
+
+2. Alter the local Git repo config file to use a commit template by issuing the command below.
+   The name of the file in this example is '.gitmessage', but it could be any hidden file name.
+
+   git config --local commit.template .gitmessage
+
+3. Confirm the change to the repo config by issuing following command.
+
+   git config --local --list
+
+4. Create commit template text file and save it in the root of the local Git repo.
+   The name must match the name assigned in the local config. Sample content.
+
+   BUKC-nnnn: <Description> (<ServiceNowNbr>)
