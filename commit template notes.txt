@@ -1,3 +1,6 @@
+Commit Template Notes
+---------------------
+
 1. cd to your local Git repo
 
 2. Alter the local Git repo config file to use a commit template by issuing the command below.
